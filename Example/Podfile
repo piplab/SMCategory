@@ -8,6 +8,5 @@ target 'SMCategory_Example' do
   target 'SMCategory_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end

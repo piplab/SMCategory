@@ -1,0 +1,16 @@
+PODS:
+  - SMCategory (0.1.0)
+
+DEPENDENCIES:
+  - SMCategory (from `../`)
+
+EXTERNAL SOURCES:
+  SMCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SMCategory: 3386f4e580d069a4f641ff209dcdc0f0f7a79305
+
+PODFILE CHECKSUM: f423908e9af36b65e5ef13481c749e3d7c362d2c
+
+COCOAPODS: 1.6.1
