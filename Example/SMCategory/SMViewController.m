@@ -7,6 +7,7 @@
 //
 
 #import "SMViewController.h"
+#import "NSArray+SMRange.h"
 
 @interface SMViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSMutableArray *array = [NSMutableArray arrayWithObjects:@1, @2, nil];
+    id re = [array instanceAtIndex:2];
+    NSLog(@"--%@",re);
 }
 
 - (void)didReceiveMemoryWarning
