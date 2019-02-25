@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSArray+SMRange.h"
 
 FOUNDATION_EXPORT double SMCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char SMCategoryVersionString[];
