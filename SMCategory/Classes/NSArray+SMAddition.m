@@ -5,12 +5,13 @@
 //  Created by Simon on 2019/2/25.
 //
 
-#import "NSArray+SMRange.h"
+#import "NSArray+SMAddition.h"
 
-@implementation NSArray (SMRange)
+@implementation NSArray (SMAddition)
 - (id)instanceAtIndex:(NSUInteger)index {
     if (index < self.count) {
-        return [self objectAtIndex:index];
+        id obj = [self objectAtIndex:index];
+        return [obj isKindOfClass:[NSNull class]] ? nil : obj;
     }
     return nil;
 }

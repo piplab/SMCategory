@@ -10,7 +10,11 @@
 #endif
 #endif
 
-#import "NSArray+SMRange.h"
+#import "NSArray+SMAddition.h"
+#import "NSDictionary+SMAddition.h"
+#import "NSMutableArray+SMAddition.h"
+#import "NSMutableDictionary+SMAddition.h"
+#import "NSString+SMAddition.h"
 
 FOUNDATION_EXPORT double SMCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char SMCategoryVersionString[];

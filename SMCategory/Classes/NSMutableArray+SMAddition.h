@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSMutableArray (SMRange)
+@interface NSMutableArray (SMAddition)
 
 - (void)addInstance:(id)obj;
 - (void)insertInstance:(id)obj atIndex:(NSUInteger)index;

@@ -5,9 +5,9 @@
 //  Created by Simon on 2019/2/25.
 //
 
-#import "NSMutableArray+SMRange.h"
+#import "NSMutableArray+SMAddition.h"
 
-@implementation NSMutableArray (SMRange)
+@implementation NSMutableArray (SMAddition)
 - (void)addInstance:(id)obj {
     if (obj) {
         [self addObject:obj];
