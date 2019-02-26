@@ -25,6 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)stringWithDouble:(double)number;
 
++ (NSString *)stringWithBool:(BOOL)number;
+
 + (NSString *)stringWithJsonObject:(id)obj;
 
 - (id)jsonValue;
@@ -33,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSArray *)jsonArray;
 
-- (NSUInteger)byteLenth;
+- (NSUInteger)byteLength;
 
 - (NSUInteger)chineseLength;
 

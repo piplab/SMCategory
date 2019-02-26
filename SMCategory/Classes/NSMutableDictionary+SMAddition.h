@@ -11,23 +11,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSMutableDictionary (SMAddition)
 
-- (void)setInt:(int)value forKey:(id)key;
+- (void)setInt:(int)number forKey:(id)key;
 
-- (void)setInteger:(int)value forKey:(id)key;
+- (void)setInteger:(NSInteger)number forKey:(id)key;
 
-- (void)setShort:(short)value forKey:(id)key;
+- (void)setShort:(short)number forKey:(id)key;
 
-- (void)setLong:(long)value forKey:(id)key;
+- (void)setLong:(long)number forKey:(id)key;
 
-- (void)setLongLong:(long long)value forKey:(id)key;
+- (void)setLongLong:(long long)number forKey:(id)key;
 
-- (void)setFloat:(float)value forKey:(id)key;
+- (void)setFloat:(float)number forKey:(id)key;
 
-- (void)setDouble:(double)value forKey:(id)key;
+- (void)setDouble:(double)number forKey:(id)key;
 
-- (void)setBool:(BOOL)value forKey:(id)key;
+- (void)setBool:(BOOL)number forKey:(id)key;
 
-- (void)setInstance:(id)value forKey:(id)key;
+- (void)setInstance:(id)obj forKey:(id)key;
 
 @end
 

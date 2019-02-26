@@ -360,7 +360,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SMCategory_Example/Pods-SMCategory_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SMCategory_Example/Pods-SMCategory_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SMCategory/SMCategory.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -371,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMCategory_Example/Pods-SMCategory_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SMCategory_Example/Pods-SMCategory_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -508,7 +508,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B2D6EF802F2158D4511A50B /* Pods-SMCategory_Example.debug.xcconfig */;
+			baseConfigurationReference = 8929817155F42B374FC358E0 /* Pods-SMCategory_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -528,7 +528,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15548260EA531BA6492BFB74 /* Pods-SMCategory_Example.release.xcconfig */;
+			baseConfigurationReference = 8FB723B881A4C0B68DAE9F06 /* Pods-SMCategory_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -547,7 +547,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA10F8741DD375EDFD6AF003 /* Pods-SMCategory_Tests.debug.xcconfig */;
+			baseConfigurationReference = 070C1B21B64DB6565A54C67C /* Pods-SMCategory_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -571,7 +571,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EAB9DEFAD8E4B3C8DB471D6 /* Pods-SMCategory_Tests.release.xcconfig */;
+			baseConfigurationReference = 78A65B6F5B61B15EE2F1B1BA /* Pods-SMCategory_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
